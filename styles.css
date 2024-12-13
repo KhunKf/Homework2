@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #000000bb, #00000059, #000000bb ), url(https://tinder.com/static/build/ac062d1b428513b9c13d11026d330e34.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-left .logo {
+    width: 120px;
+
+}
+
+.nav-left .manu-bar a {
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-left .manu-bar a:hover {
+    text-decoration: underline;
+
+}
+
+.nav-right .btn-language {
+    background: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 8px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 32px;
+}
+
+.nav-right .btn-language:hover {
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.nav-right .btn-login {
+    padding: 8px 16px;
+    border-radius: 32px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-right .icon svg {
+    width: 20px;
+}
+
+.nav-right {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-right .btn-login:hover {
+    text-decoration: underline;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-center h1 {
+    font-size: 100px;
+    color:white;
+    display: flex;
+}
+
+.content-center h1 span {
+    font-size: 36px;
+}
+
+.content-center button {
+    padding: 8px 16px;
+    background: linear-gradient(120deg, darkmagenta, crimson);
+    color: white;
+    border: 0;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.content-center button:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    text-align: end;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 10px;
+}
